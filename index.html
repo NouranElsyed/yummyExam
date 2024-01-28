@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="loading">
+        <i class="fa fa-spinner fa-spin fa-7x text-white  loader"></i>
+    </div>
+    <div class="side-nav min-vh-100 d-flex position-fixed top-0 overflow-hidden">
+        <div class="side-nav-inner d-flex flex-column justify-content-between text-white pt-3 fs-5 mb-4">
+            <div>
+                <a href="#search" class="py-4 ms-5 fw-normal a1 ">Search</a>
+                <a href="#categories" class="py-4 ms-5 fw-normal a2 ">Categories</a>
+                <a href="#Area" class="py-4 ms-5 fw-normal a3 ">Area</a>
+                <a href="#Ingredients" class="py-4 ms-5 a4 fw-normal ">ingredients</a>
+                <a href="#contact Us" class="py-4 ms-5 a5 fw-normal ">Contact</a>
+            </div>
+            <div class="p-4">
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <div class="copyright">
+                    <p>Copyright Â© 2019 All Rights <br>Reserved.</p>
+                </div>
+            </div>
+        </div>
+        <div class="openClose fs-4 d-flex justify-content-between flex-column align-items-center">
+            <img src="img/logo.png" class="w-75 mt-3" alt="yummy logo">
+            <span class="fs-1" id="openClose"><i class="fa-solid fa-bars"></i></span>
+            <div  class="mb-4 d-flex flex-column ">
+               <span class="my-2"><i class="fa-solid fa-globe"></i></span> 
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid W-85">
+        <div class="row my-5" id="displaysearch">
+              
+
+        </div> 
+        <div class="row my-5" id="displayMain">
+               
+
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
